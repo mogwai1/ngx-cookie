@@ -18,7 +18,7 @@ export class CookieBackendService extends CookieService {
   }
 
   protected set cookieString(val: string) {
-    this.request.cookie = val;
+    this.request.headers.cookie = val;
     this.response.cookie = val;
   }
 }
