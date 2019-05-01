@@ -2,6 +2,7 @@
   "name": "ngx-cookie",
   "version": "4.1.2",
   "description": "Implementation of Angular 1.x $cookies service to Angular",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
